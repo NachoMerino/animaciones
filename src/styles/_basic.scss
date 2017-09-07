@@ -1,0 +1,27 @@
+body {
+  overflow: hidden;
+  min-height: 100vh;
+  background: linear-gradient(180deg, lightblue, aliceblue 20vh);
+}
+
+#sea-ground {
+  position: absolute;
+  left: 0;
+  top: 20vh;
+  width: 100vw;
+  height: 80vh;
+  background: #70d0ee url('../images/underwater.jpg') no-repeat;
+  background-size: cover;
+}
+
+
+
+
+#frame {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  border: 2vw solid #fff;
+  box-sizing: border-box;
+  z-index: 99999999;
+}

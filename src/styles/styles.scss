@@ -1,0 +1,172 @@
+@import 'normalize';
+@import 'reset';
+@import 'basic';
+
+
+
+
+/* And here follows your custom CSS */
+
+
+/* ########################################### */
+/* WAVES                                       */
+/* ########################################### */
+
+
+/* ------------------------------------------- */
+/* declare the waves animation                 */
+/*                                             */
+/* name it waves:                              */
+/* use property background-position-x          */
+/* and move it by the background image's width */
+/* ------------------------------------------- */
+
+
+/* ... */
+
+
+/* ------------------------------------------- */
+#sea-waves {
+  position: absolute;
+  width: 100vw;
+  height: 70px;
+  top: calc(20vh - 56px);
+  left: 0;
+
+  /* load background image ../images/waves.svg */
+
+
+  /* set background size to 2*viewport width and 70px height */
+
+
+  /* Add animation property for the waves */
+
+}
+/* ------------------------------------------- */
+
+
+
+/* ########################################### */
+/* SUN                                         */
+/* ########################################### */
+
+/* ------------------------------------------- */
+/* the sun color animation                     */
+/*                                             */
+/* name it sea-color                           */
+/* use property fill and change it to          */
+/*                                             */
+/* #f2fcbb                                     */
+/* #f7d443                                     */
+/* #f7b643                                     */
+/* #f7d443                                     */
+/* #f2fcbb                                     */
+/* ------------------------------------------- */
+
+
+/* ... */
+
+
+/* ------------------------------------------- */
+/*  the sun rings' scaling animation           */
+/*                                             */
+/* name it sun-ring                            */
+/* use properties scale and opacity            */
+/*                                             */
+/* ------------------------------------------- */
+
+
+/* ... */
+
+
+/* ------------------------------------------- */
+#sun-animation {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  left: 25%;
+  top: 20vh;
+  transform: translate(-50%, -50%);
+
+  /* set the default fill for the sun elements */
+
+}
+
+#sun-ring-1,
+#sun-ring-2,
+#sun-ring-3 {
+
+  /* set the transform-origin */
+
+}
+
+#sun-body {
+
+  /* Add animation property for the sun color */
+
+}
+
+#sun-ring-1 {
+
+  /* Add animation property for the sun color and the sun rings' scaling */
+
+}
+
+#sun-ring-2 {
+
+  /* Add animation property for the sun color and the sun rings' scaling */
+
+}
+
+#sun-ring-3 {
+
+  /* Add animation property for the sun color and the sun rings' scaling */
+
+}
+/* ------------------------------------------- */
+
+
+
+/* ########################################### */
+/* BUBBLES                                     */
+/* ########################################### */
+
+/* ------------------------------------------- */
+/* bubbles' floating up animation              */
+/*                                             */
+/* name it sea-bubbles-up                      */
+/* animate bottom property to max. 75vh        */
+/* animate opacity to 0                        */
+/* ------------------------------------------- */
+
+
+/* ... */
+
+
+/* ------------------------------------------- */
+/* bubbles' swinging left right animation      */
+/*                                             */
+/* name it sea-bubbles-left-right              */
+/* use properties margin-left and margin-right */
+/* ------------------------------------------- */
+
+
+/* ... */
+
+
+/* ------------------------------------------- */
+.sea-bubble {
+  position: absolute;
+  opacity: .7;
+  width: 40px;
+  height: 40px;
+
+  /* load background image ../images/bubble.svg */
+
+
+  /* use the bubbles' floating up animation and swinging left right animation */
+
+}
+/* ------------------------------------------- */
+
+
